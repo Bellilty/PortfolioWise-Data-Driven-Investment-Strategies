@@ -61,21 +61,25 @@ These results demonstrate the strategy's ability to balance returns and risk eff
 Install the necessary libraries using:
 ```bash
 pip install numpy pandas scikit-learn joblib yfinance
-Running the Code
-Train and save models for portfolio selection:
-bash
-Copier
-Modifier
-python portfolio.py
-Evaluate portfolio performance with the provided test dataset.
+```
+
+### Running the Code
+1. Train and save models for portfolio selection:
+   ```bash
+   python portfolio.py
+   ```
+2. Evaluate portfolio performance with the provided test dataset.
 
 ## Files in the Repository
-Portfolio Selection Project Report.pdf: Comprehensive report summarizing methods and results.
-portfolio.py: Python script for training models and allocating portfolio weights.
-all_models.joblib: Serialized models for portfolio predictions.
+- **`Portfolio Selection Project Report.pdf`**: Comprehensive report summarizing methods and results.
+- **`portfolio.py`**: Python script for training models and allocating portfolio weights.
+- **`all_models.joblib`**: Serialized models for portfolio predictions.
+
 ## Authors
-Daniel Dahan (ID: 345123624)
-Simon Bellilty (ID: 345233563)
-Acknowledgments
-Yahoo Finance(https://finance.yahoo.com/) for stock data.
-Scikit-learn Documentation(https://scikit-learn.org/) for regression models.
+- **Daniel Dahan** (ID: 345123624)
+- **Simon Bellilty** (ID: 345233563)
+
+## Acknowledgments
+- [Yahoo Finance](https://finance.yahoo.com/) for stock data.
+- [Scikit-learn Documentation](https://scikit-learn.org/) for regression models.
+
